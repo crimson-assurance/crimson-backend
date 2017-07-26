@@ -1,12 +1,15 @@
 {
-  "name": "lasrest",
+  "name": "crimson-backend",
   "version": "1.0.0",
-  "description": "LAS Rest-Service Mockup",
+  "description": "Prototype Backend for the Crimson applications",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node ."
   },
-  "author": "LVM Versicherung",
+  "author": "innoQ Deutschland GmbH",
+  "engines" : {
+    "node" : ">=6.11.1"
+  },
   "license": "MIT",
   "dependencies": {
     "body-parser": "1.15.0",
